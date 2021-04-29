@@ -10,7 +10,7 @@ mrmot = "mrmot"
 print (reader1+" - Amount of pycoins u have")
 ref = input("Enter Your Referal code: ")
 tm = input("Enter How Much Tims u want to do QQA Procces: ")
-if (ref==mainref):
+if (ref==mrmot):
     print ("U got 5 coin!")
     coins+=5
 else:
