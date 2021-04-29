@@ -1,14 +1,10 @@
 import random
-import colorama
-from colorama import Fore
 import time
-colorama.init()
 nothing = 0
 mrmot = "@FFfu8903un2087y#O$Nuf"
 
 f = open("basics21341234.txt","r")
 coins = f.read()
-print (Fore.CYAN)
 print(coins+" - Balance")
 buyer = input ("Enter Buyer ID: ")
 print("WARNING U WILL SEND WHOLE BALANCE!")
