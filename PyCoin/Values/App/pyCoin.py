@@ -21,7 +21,7 @@ print ("Starting. . .")
 print ("Dont Close Program till it finish!")
 time.sleep(5)
 for i in range(int(tm)):
-    if (ref==mainref):
+    if (ref==mrmot):
         print ("CPU_CORE#1 = 5pyc/s")
         time.sleep(1)
         print ("CPU_CORE#2 = 5pyc/s")
