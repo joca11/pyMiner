@@ -6,7 +6,7 @@ f = open("basics21341234.txt", "r")
 reader1 = f.read()
 coins = int(reader1)
 g = open("basics21341234.txt", "w")
-mainref = "mrmot"
+mrmot = "mrmot"
 print (reader1+" - Amount of pycoins u have")
 ref = input("Enter Your Referal code: ")
 tm = input("Enter How Much Tims u want to do QQA Procces: ")
@@ -21,7 +21,6 @@ print ("Starting. . .")
 print ("Dont Close Program till it finish!")
 time.sleep(5)
 for i in range(int(tm)):
-    print(Fore.CYAN)
     if (ref==mainref):
         print ("CPU_CORE#1 = 5pyc/s")
         time.sleep(1)
