@@ -1,16 +1,12 @@
 import random
 import os
-import colorama
-from colorama import Fore
 import time
-colorama.init()
 global coins
 f = open("basics21341234.txt", "r")
 reader1 = f.read()
 coins = int(reader1)
 g = open("basics21341234.txt", "w")
 mainref = "mrmot"
-print(Fore.CYAN)
 print (reader1+" - Amount of pycoins u have")
 ref = input("Enter Your Referal code: ")
 tm = input("Enter How Much Tims u want to do QQA Procces: ")
@@ -20,7 +16,6 @@ if (ref==mainref):
 else:
     print("U got 1 Coin!")
     coins+=1
-print(Fore.GREEN)
 input = ("Press ENTER to start: ")
 print ("Starting. . .")
 print ("Dont Close Program till it finish!")
@@ -28,7 +23,6 @@ time.sleep(5)
 for i in range(int(tm)):
     print(Fore.CYAN)
     if (ref==mainref):
-        print(Fore.GREEN)
         print ("CPU_CORE#1 = 5pyc/s")
         time.sleep(1)
         print ("CPU_CORE#2 = 5pyc/s")
